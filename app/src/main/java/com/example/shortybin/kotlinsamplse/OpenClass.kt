@@ -6,5 +6,7 @@ package com.example.shortybin.kotlinsamplse
 open class OpenClass constructor(name:String){
     val age: Int = 0
 
-    open fun getAge(){}
+    open fun getAge(){
+
+    }
 }

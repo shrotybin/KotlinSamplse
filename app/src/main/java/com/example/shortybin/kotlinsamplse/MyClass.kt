@@ -1,6 +1,13 @@
 package com.example.shortybin.kotlinsamplse
 
-class MyClass constructor(name: String) : OpenClass(name) {
+import android.util.Log
+
+//在本包内都可以调该函数
+fun a(){
+
+}
+
+class MyClass constructor(name: String) {
     var mName = ""
 
     init {
@@ -8,4 +15,5 @@ class MyClass constructor(name: String) : OpenClass(name) {
     }
 
     fun getString(): String = mName
+
 }

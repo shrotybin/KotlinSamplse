@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         InstanceClass.name
         InstanceClass.getString()
+
     }
 
     fun Activity.showToast(msg: String) = Toast.makeText(this, msg, Toast.LENGTH_LONG).show()
